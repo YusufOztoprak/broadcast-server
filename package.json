@@ -1,0 +1,25 @@
+{
+  "name": "broadcast-server",
+  "version": "1.0.0",
+  "description": "A simple WebSocket broadcast server for real-time messaging.",
+  "main": "bin/broadcast-server.js",
+  "bin": {
+    "broadcast-server": "./bin/broadcast-server.js"
+  },
+  "scripts": {
+    "start": "node bin/broadcast-server.js start",
+    "connect": "node bin/broadcast-server.js connect"
+  },
+  "dependencies": {
+    "ws": "^8.15.0",
+    "commander": "^11.0.0"
+  },
+  "keywords": [
+    "websocket",
+    "broadcast",
+    "server",
+    "real-time"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
