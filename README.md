@@ -13,7 +13,7 @@ A simple WebSocket-based broadcast server that allows multiple clients to connec
 ## Installation
 
 ```bash
-git clone <https://github.com/YusufOztoprak/broadcast-server>
+git clone https://github.com/YusufOztoprak/broadcast-server
 cd broadcast-server
 npm install
 ```
